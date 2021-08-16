@@ -10,7 +10,7 @@ spec:
     type: image
   params:
   - name: namespace
-    default: cp4i-ace
+    default: ace
     description: namespace used to publish the integration server
   tasks:
   - name: build-image

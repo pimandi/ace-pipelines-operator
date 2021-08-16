@@ -8,7 +8,7 @@ spec:
     kind: PipelineRun
     metadata:
       generateName: acecicd-pipeline-run-
-      namespace: cp4i-ace
+      namespace: ace
       labels:
         tekton.dev/pipeline: acecicd-pipeline
     spec:
